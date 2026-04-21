@@ -3,7 +3,8 @@ from pathlib import Path
 
 
 def main():
-    data_path = Path("data/raw/customer_churn.csv")
+    project_root = Path(__file__).resolve().parent.parent
+    data_path = project_root / "data" / "raw" / "customer_churn.csv"
 
     if not data_path.exists():
         print(f"Dataset not found at: {data_path}")
