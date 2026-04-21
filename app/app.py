@@ -8,7 +8,8 @@ from app.schemas import CustomerData
 
 app = FastAPI(title="Customer Churn Prediction API")
 
-model_path = Path("models/full_pipeline.pkl")
+BASE_DIR = Path(__file__).resolve().parent.parent
+model_path = BASE_DIR / "models" / "full_pipeline.pkl"
 
 if not model_path.exists():
     raise FileNotFoundError(f"Model file not found at {model_path}")
