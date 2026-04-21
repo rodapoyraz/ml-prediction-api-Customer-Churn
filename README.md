@@ -218,3 +218,13 @@ This project demonstrates the ability to:
 * expose machine learning models as production-ready APIs
 
 ---
+
+## 🌐 Live API
+
+https://rp-ml-prediction-customer-churn.onrender.com/docs
+
+---
+
+## API Demo
+<img width="1919" height="924" alt="docs-api" src="https://github.com/user-attachments/assets/a46d5c20-f190-49f4-8510-e600126c29f2" />
+
